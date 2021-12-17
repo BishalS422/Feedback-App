@@ -1,0 +1,11 @@
+.bodycont {
+  background-color: rgb(85, 95, 122);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  padding: 2rem;
+  border-radius: 6px;
+  height: min-content;
+}
