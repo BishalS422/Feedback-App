@@ -1,5 +1,5 @@
 .bodycont {
-  background-color: rgb(85, 95, 122);
+  background-color: rgb(66, 34, 209);
   width: 80%;
   display: flex;
   justify-content: center;
@@ -7,5 +7,5 @@
   margin-top: 10px;
   padding: 2rem;
   border-radius: 6px;
-  height: min-content;
+  height: min-content;.
 }
