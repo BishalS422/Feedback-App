@@ -1,10 +1,14 @@
-import { FeedbackData } from "../Data/FeedbackData";
 import "../StyleSheet/FeedbackIteam.css";
 
-function FeedbackIteam() {
+function FeedbackIteam({ item }) {
   return (
     <>
-      <div className="bodycont"> This is from feedBack iteam</div>
+      <div className="card">
+        <div>
+          {item.rating}
+          {item.text}
+        </div>
+      </div>
     </>
   );
 }
