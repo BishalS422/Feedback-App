@@ -7,5 +7,9 @@
   margin-top: 10px;
   padding: 2rem;
   border-radius: 6px;
-  height: min-content;.
+  height: min-content;
+}
+.rating {
+  font-size: 30px;
+  color: rgb(75, 85, 85);
 }
