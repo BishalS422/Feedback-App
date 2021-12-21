@@ -1,14 +1,13 @@
 import "../StyleSheet/FeedbackIteam.css";
+import Card from "./Shared/Card";
 
 function FeedbackIteam({ item }) {
   return (
     <>
-      <div className="card">
-        <div>
-          {item.rating}
-          {item.text}
-        </div>
-      </div>
+      <Card>
+        <div className="num-display">{item.rating}</div>
+        <div className="text-display">{item.text}</div>
+      </Card>
     </>
   );
 }
