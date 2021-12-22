@@ -1,0 +1,25 @@
+.card {
+  height: fit-content;
+  background: rgb(80, 98, 105);
+  color: aliceblue;
+}
+.rating {
+  font-size: 30px;
+  color: rgb(75, 85, 85);
+}
+.num-display {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding-left: 7px;
+  padding-top: 5px;
+  background: rgb(180, 85, 85);
+}
+.delete-btn {
+  background: rgb(36, 61, 47);
+  color: rgb(143, 231, 180);
+  height: 25px;
+  padding: 0;
+  border: none;
+  margin-top: 6px;
+}
