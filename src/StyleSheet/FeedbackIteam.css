@@ -9,7 +9,28 @@
   border-radius: 6px;
   height: min-content;
 }
-.rating {
-  font-size: 30px;
-  color: rgb(75, 85, 85);
+
+.num-display {
+  display: flex;
+  position: relative;
+  top: -40px;
+  left: -35px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  padding-left: 13px;
+  padding-top: 8px;
+  background: rgb(180, 85, 85);
+}
+.delete-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background: rgb(53, 42, 42);
+  position: relative;
+  top: -64px;
+  left: 510px;
+  color: rgba(250, 246, 246, 0.979);
 }

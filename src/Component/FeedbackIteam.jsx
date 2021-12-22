@@ -1,5 +1,6 @@
 import "../StyleSheet/FeedbackIteam.css";
 import Card from "./Shared/Card";
+import { FaTrash } from "react-icons/fa";
 
 function FeedbackIteam({ item, handleDelete }) {
   return (
@@ -8,7 +9,7 @@ function FeedbackIteam({ item, handleDelete }) {
         <div className="num-display">{item.rating} </div>
         <div className="text-display">{item.text}</div>
         <button onClick={() => handleDelete(item.id)} className="delete-btn">
-          Delete
+          <FaTrash />
         </button>
       </Card>
     </>

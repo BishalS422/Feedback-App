@@ -2,24 +2,18 @@
   height: fit-content;
   background: rgb(80, 98, 105);
   color: aliceblue;
+  margin: 20px;
 }
-.rating {
-  font-size: 30px;
-  color: rgb(75, 85, 85);
-}
+
 .num-display {
-  height: 25px;
-  width: 25px;
+  display: flex;
+  position: relative;
+  top: -40px;
+  left: -35px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
-  padding-left: 7px;
-  padding-top: 5px;
+  padding-left: 13px;
+  padding-top: 8px;
   background: rgb(180, 85, 85);
-}
-.delete-btn {
-  background: rgb(36, 61, 47);
-  color: rgb(143, 231, 180);
-  height: 25px;
-  padding: 0;
-  border: none;
-  margin-top: 6px;
 }
