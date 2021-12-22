@@ -12,7 +12,7 @@ function FeedbackStatus({ feedback }) {
   return (
     <div>
       <h2> {feedback.length} Review</h2>
-      <h2> Average review:{average}</h2>
+      <h2> Average Review:{average}</h2>
     </div>
   );
 }
