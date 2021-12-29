@@ -3,12 +3,13 @@ import React from "react";
 function FeedbackStatus({ feedback }) {
   // hear we use reduce fuction to add rating of all feedback
   const sumRating = feedback.reduce(
-    (total, feedback) => total + feedback.rating,
+    (total, feedback1) => total + feedback1.rating,
     0
   );
-  console.log(sumRating);
+  //console.log(sumRating);
 
   const average = (sumRating / feedback.length).toPrecision(3);
+  // average = average.replace(//,"")
 
   return (
     <div>
