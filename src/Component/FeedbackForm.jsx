@@ -4,9 +4,17 @@ import Button from "./Shared/Button";
 
 function FeedbackForm() {
   const [text, setText] = React.useState(""); // get text from input and set on text using use state
-
+  const [btnDisable, setBthDisable] = React.useState(false);
   const handleChangetext = (e) => {
-    setText(e.target.value); //set teh input value in setText
+    if (text === "") {
+      setBthDisable(true);
+    }
+    if (text !== "" && text.trim().length <= 10) {
+      setBthDisable(true);
+    } else {
+      setBthDisable(false);
+    }
+    //setText(e.target.value); //set teh input value in setText
   };
   return (
     <div>
@@ -18,8 +26,9 @@ function FeedbackForm() {
           placeholder="write your review hear"
         />
         <div className="btn-form">
-          <Button> send </Button>
+          <Button isDisabled={btnDisable}> send </Button>
         </div>
+        <h2>{text}</h2>
       </form>
     </div>
   );

@@ -1,5 +1,5 @@
 .feedbackForm {
-  width: 35em;
+  width: 35rem;
   height: 120px;
   display: flex;
   background: rgba(121, 115, 115, 0.644);
@@ -18,4 +18,5 @@
 .btn-form {
   margin-top: 40px;
   margin-left: 7px;
+  float: right;
 }
